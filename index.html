@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliaria</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="JS/jquery-3.6.2.min.js" defer></script>
+    <script src="JS/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container px-5">
+            <nav class="navbar_site">
+                <div class="logo">
+                    <h1>Logo</h1>
+                </div>
+                <div class="menu_itens">
+                    <div class="menu_desktop">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Footures</a></li>
+                            <li><a href="/">About Us</a></li>
+                            <li><a href="/">Agonts</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu_mobile">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">Footures</a></li>
+                            <li><a href="/">About Us</a></li>
+                            <li><a href="/">Agonts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_contato">
+                    <a href="/">Contato</a>
+                    <div class="menu_burguer">
+                        <svg id="menu_open" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+                        
+                        <svg id="menu_close" class="close" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <main class="container_principal">
+            <div class="container pt-5 px-5">
+                <h1>Find Real State <br> That Suits You.</h1>
+                <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Error eius laborum accusantium vero ex obcaecati voluptate.</p>
+
+                <button class="mb-3">Get started</button>
+
+                <div class="dados pt-5">
+                    <div class="box_dados pe-4">
+                        <h1>1200<span>+</span></h1>
+                        <p>Premium product</p>
+                    </div>
+                    <div class="box_dados pe-4">
+                        <h1>4500<span>+</span></h1>
+                        <p>Happy costumer</p>
+                    </div>
+                    <div class="box_dados">
+                        <h1>240<span>+</span></h1>
+                        <p>Award Winning</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+    <section class="container_busca">
+        <div class="container px-4 d-flex justify-content-center">
+            <div class="info_busca p-4">
+                <h1 class="fs-4">Search the price you looking for</h1>
+                <div class="box_busca">
+                    <input type="text" placeholder="Location">
+                </div>
+                <div class="box_busca">
+                    <input type="text" placeholder="Typc">
+                </div>
+                <div class="box_busca">
+                    <input type="text" placeholder="Budgot">
+                </div>
+                <div class="box_busca">
+                    <button>Search now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container_casas pt-5">
+        <div class="container px-4">
+            <span><div></div> Popular</span>
+            <h1>Our Popular Residence</h1>
+            <div class="lista_casas py-5">
+                <div class="casas_single">
+                    <img src="Img/house1.jpg" alt="Casa">
+                    <span class="localizacao_casa ps-2">Jakarta</span>
+                    <div class="info_casa py-2">
+                        <span>4 bed</span>
+                        <span>10 x 10m</span>
+                        <span>1800m</span>
+                    </div>
+                    <div class="valor_casa pt-1">
+                        <button>Block Now</button>
+                        <span>$ 5,000,000</span>
+                    </div>
+                </div>
+                <div class="casas_single">
+                    <img src="Img/house2.jpg" alt="Casa">
+                    <span class="localizacao_casa ps-2">Cikarang</span>
+                    <div class="info_casa py-2">
+                        <span>4 bed</span>
+                        <span>10 x 10m</span>
+                        <span>1800m</span>
+                    </div>
+                    <div class="valor_casa pt-1">
+                        <button>Block Now</button>
+                        <span>$ 4,100,000</span>
+                    </div>
+                </div>
+                <div class="casas_single">
+                    <img src="Img/house3.jpg" alt="Casa">
+                    <span class="localizacao_casa ps-2">Tangerang</span>
+                    <div class="info_casa py-2">
+                        <span>4 bed</span>
+                        <span>10 x 10m</span>
+                        <span>1800m</span>
+                    </div>
+                    <div class="valor_casa pt-1">
+                        <button>Block Now</button>
+                        <span>$ 7,400,000</span>
+                    </div>
+                </div>
+            </div><!--lista_casas-->
+        </div><!--container-->
+    </section>
+    <section class="bloco_preto"></section>
+    <div class="location">
+        
+    </div>
+</body>
+</html>
